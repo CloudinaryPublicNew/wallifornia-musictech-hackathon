@@ -81,5 +81,11 @@ And here is the final result:
 
 ![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,c_lpad,g_west,b_auto,dpr_auto,f_auto,q_auto:best,e_gradient_fade:symmetric_pad,x_50/e_make_transparent:10,l_wallifornia:logo20182x.jpg,w_140/e_art:zorro/v1530016018/wallifornia/wiz-khalifa.jpg)
 
+Let's also add some text to this image to display the name of the artist. We can very easily achieve that by adding yet another layer and specify some options \(such as the font family, font size and additional options\):
 
+`/l_text:roboto_45:Wiz%20Khalifa,co_black,g_south_east,x_30,y_10,w_600,c_fit/`
+
+This is how the final result looks like:
+
+![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,c_lpad,g_west,b_auto,dpr_auto,f_auto,q_auto:best,e_gradient_fade:symmetric_pad,x_50/e_make_transparent:10,l_wallifornia:logo20182x.jpg,w_140/l_text:roboto_45:Wiz%20Khalifa,co_black,g_south_east,x_30,y_10,w_600,c_fit/e_art:zorro/v1530016018/wallifornia/wiz-khalifa.jpg)
 
