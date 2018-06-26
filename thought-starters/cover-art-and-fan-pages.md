@@ -1,6 +1,6 @@
 # Cover Art & Fan Pages
 
-![](https://github.com/cloudinary-developers/wallifornia-musictech-hackathon/tree/26f589b23176cf643715a9c0b40599925f4b7c01/.gitbook/assets/imperial-styled.jpg)
+![](https://github.com/cloudinary-developers/wallifornia-musictech-hackathon/assets/imperial-styled.jpg)
 
 ## Build Styled Cover Art and Fan Pages
 
@@ -10,7 +10,7 @@ Let users compete in fan-boy \| fan-girl [image art contest](https://faas-cloudi
 
 ### Choose a Serverless Stack
 
-Resist the urge to create an Express app from scratch and deploy a server for this one! Instead, focus on extending our[ Blueprint starter application](https://cloudinary.gitbook.io/cil-hackathon-guide/~/edit/primary/thought-starters/immersive-wayne-shorter-catalog) built on Auth0 extend's FaaS serverless stack. . You'll be able to quickly use our API's example endpoints or extend it further with other APIs. Then call each API directly within a Single Page App \(SPA\) to take advantage of the responsive design possibilities.
+Resist the urge to create an Express app from scratch and deploy a server for this one! Instead, focus on building on Auth0 extend's FaaS serverless stack. . You'll be able to quickly create use and deploy Cloudinary's API's and extend it further with other APIs. Then call each API directly within a Single Page App \(SPA\) to take advantage of the responsive design possibilities.
 
 Cloudinary's APIs work extremely well with Auth0 [Webtasks](https://webtask.io) and other serverless platforms. We support many languages, including JavaScript and [Node.js](https://cloudinary.com/documentation/node_integration).
 
