@@ -1,22 +1,4 @@
 # Wallifornia Musictech Hackathon
 
-```javascript
-Function superCoolMusic(){
-let event = 'Wallifornia'
-return 'Awesome Music' + event
-}
-```
-
-{% tabs %}
-{% tab title="About" %}
-This is cool event.   
-Really cool event.
-{% endtab %}
-
-{% tab title="Location" %}
-1234 Main Street. 
-
-San Francisco CA 94114
-{% endtab %}
-{% endtabs %}
-
+##SHOW ME THE HUMAN SIDE OF MUSICTECH
+* Wallifornia MusicTech delivers the ultimate music tech experience by bringing together artists, labels, agents, musictech start-up, researchers, key players of the music industry and investors. * 
