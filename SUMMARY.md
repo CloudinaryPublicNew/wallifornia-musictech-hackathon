@@ -1,18 +1,12 @@
 # Table of contents
 
-* [Capitol 360 Innovation Center Hackathon Guide](README.md)
+* README Page
 
 ## Capitol360 Innovation Center Hackathon Guide
 
-* [Arrival Guide / Parking](capitol360-innovation-center-hackathon-guide/arrival-guide-parking.md)
 * [Challenge and Prizes](capitol360-innovation-center-hackathon-guide/challenge-and-prizes.md)
 * [Participating Sponsors](capitol360-innovation-center-hackathon-guide/participating-sponsors.md)
-* [Hackathon Event Flow](capitol360-innovation-center-hackathon-guide/hackathon-event-flow.md)
-* [Special Guests](capitol360-innovation-center-hackathon-guide/special-guests.md)
 
-## Blueprints
-
-* [Discover Music](blueprints/discover-music.md)
 
 ## Thought Starters
 
@@ -39,21 +33,4 @@
 * [Distortion Effects](cloudinary/distortion-effects.md)
 * [Audio to Waveform Images](cloudinary/audio-to-waveform-images.md)
 * [Social and Cloud Sources](cloudinary/social-and-cloud-sources.md)
-
-## 7Digital
-
-* [Using 7Digital API](7digital/using-7digital-api.md)
-
-## Tivo
-
-* [Using TiVo & Lyricfind APIs’](tivo/using-tivo-and-lyricfind-apis.md)
-* [TiVo Playlisting](tivo-playlisting.md)
-
-## ConsenSys
-
-* [ConsenSys Hackathon Developer Guide](consensys/consensys-hackathon-developer-guide.md)
-
-## Microsoft
-
-* [Using Microsoft APIs](microsoft/using-microsoft-apis.md)
 
