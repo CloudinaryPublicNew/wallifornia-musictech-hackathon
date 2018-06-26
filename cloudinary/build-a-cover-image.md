@@ -127,5 +127,5 @@ c_pad,f_auto,g_east,q_auto
 
 Now see how this technique might look on a web page with an interesting background:
 
-![](../.gitbook/assets/assets-lalyutnvnjys_90po7d-ld21yyxlknzpuzstv_y-ld2720vkeppdm9jyaij-transparent-background.png)
+![](https://github.com/cloudinary-developers/wallifornia-musictech-hackathon/tree/26f589b23176cf643715a9c0b40599925f4b7c01/.gitbook/assets/assets-lalyutnvnjys_90po7d-ld21yyxlknzpuzstv_y-ld2720vkeppdm9jyaij-transparent-background.png)
 

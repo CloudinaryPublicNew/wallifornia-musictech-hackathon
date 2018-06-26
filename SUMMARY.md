@@ -1,18 +1,13 @@
 # Table of contents
 
-* README Page
+* [Introduction](README.md)
 
-## Capitol360 Innovation Center Hackathon Guide
+## Wallifornia Musictech Hackathon
 
 * [Challenge and Prizes](capitol360-innovation-center-hackathon-guide/challenge-and-prizes.md)
-* [Participating Sponsors](capitol360-innovation-center-hackathon-guide/participating-sponsors.md)
-
 
 ## Thought Starters
 
-* [UMG Challenges](thought-starters/umg-challenges.md)
-* [Immersive Wayne Shorter Catalog](thought-starters/immersive-wayne-shorter-catalog.md)
-* [Build an A&R research tool](thought-starters/build-an-a-and-r-research-tool.md)
 * [Multi-User Sing Along](thought-starters/multi-user-sing-along.md)
 * [Cover Art & Fan Pages](thought-starters/cover-art-and-fan-pages.md)
 * [Interactive Lyrics Page](thought-starters/interactive-lyrics-page.md)
