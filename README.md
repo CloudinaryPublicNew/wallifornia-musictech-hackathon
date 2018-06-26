@@ -2,7 +2,8 @@
 
 ```javascript
 Function superCoolMusic(){
-return 'Awesome Music'
+let event = 'Wallifornia'
+return 'Awesome Music' + event
 }
 ```
 
