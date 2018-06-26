@@ -56,11 +56,11 @@ e_art:zorro
 
 Nice vibe! You can almost hear Wiz's heavy rapping beats. We have dozens of artistic filters, text and image overlays to experiment with and make that cover image pop.
 
-This looks great so far however the background colour that we have generated stands out a little bit as there’s a cut for the transition. We can very easily fix this visual defect by adding a gradient fade to ease the background colour to the main image.
+This looks great so far however the background colour that we have generated stands out a little bit as there’s a seam between the original image and the generated background. We can very easily fix this visual defect by adding a gradient fade to ease the background colour to the main image.
 
 We can achieve that by adding these parameters to the image:
 
-`e_gradient_fade:symmetric_pad,x_50`
+`e_gradient_fade:symmetric_pad,x_50/e_art:zorro/`
 
 ![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,c_lpad,g_west,b_auto,dpr_auto,f_auto,q_auto:best,e_gradient_fade:symmetric_pad,x_50/e_art:zorro/v1530016018/wallifornia/wiz-khalifa.jpg)
 
@@ -73,11 +73,13 @@ This is the logo that we’ll be using - it is also loaded as an asset to Cloudi
 
 ![](https://res.cloudinary.com/tamas-demo/image/upload/v1530018414/wallifornia/logo20182x.jpg)
 
-Notice that this logo has a white background and a certain size as well, which is a tad too big for our scenario. So it’s not only enough to place the image as an overlay but we need to apply some transformation to this image before we add it as a new layer. We can achieve this by adding the following options:
+Notice that this logo has a white background and a certain size as well, which is a tad too large for our scenario. So it’s not only enough to place the image as an overlay but we need to apply some transformation to this image before we add it as a new layer. We can achieve this by adding the following options:
 
 `/e_make_transparent:10,l_wallifornia:logo20182x.jpg,w_140/`
 
 And here is the final result:
 
 ![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,c_lpad,g_west,b_auto,dpr_auto,f_auto,q_auto:best,e_gradient_fade:symmetric_pad,x_50/e_make_transparent:10,l_wallifornia:logo20182x.jpg,w_140/e_art:zorro/v1530016018/wallifornia/wiz-khalifa.jpg)
+
+
 
