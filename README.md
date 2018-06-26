@@ -20,7 +20,8 @@ Your mission? Within 24 hours of intense work, debates and brainstorming, each t
 
 Our [Relab \( Liège’s Fablab \)](https://www.relab.be/) will be open for you during all the duration of the event!
 
-Prizes  
+## Prizes
+
 Tickets to Wallifornia Music Tech Conference and the sold out Les Ardentes Festival \(with Massive Attack, Wiz Khalifa, Damien Marley and more!\), [1-year Cloudinary Plus plan](wallifornia-musictech-hackathon/challenge-and-prizes.md#cloudinary-challenge), Amazon Echo Dot speakers, MOD Devices, RevDevBug licenses, and much more TBA!  
   
   
