@@ -1,3 +1,8 @@
 # Wallifornia Musictech Hackathon
 
-## TBD
+```javascript
+Function superCoolMusic(){
+return 'Awesome Music'
+}
+```
+
