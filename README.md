@@ -8,6 +8,8 @@ Wallifornia MusicTech delivers the ultimate music tech experience by bringing to
 
 The best thinkers and hackers know there is no better time to get together and shape the future of music tech experiences! Crack the code with like-minded people and mentor from the musictech sector! This year thematics are artificial intelligence, binaural sound, virtual reality or even blockchain!
 
+{% hint style="warning" %} This Hackathon Guide is a living document which we update frequently with additional info and code examples. It's meant to be a quick start in learning about Cloudinary and how to integrate other APIs featured at this event. Please take a few moments to check out and follow the guide's thought starters links and try our Blueprint Sample Application: Discover Music - complete ready to run example app that integrates APIs from Cloudinary, The 7Digital CMG Catalog, Tivo, Microsoft and more! Feel free to use, modify and extend our blueprint apps for your Hack. And, don't forget to check back here often for new content. {% endhint %}
+
 Brave hackers, are you ready for some intense coding?
 
 Coders, artists, developers, companies that need creatives to use your API and build something innovative for the music industry alongside artists and industry mentors, come join us!
