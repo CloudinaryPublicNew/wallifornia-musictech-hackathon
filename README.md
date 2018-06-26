@@ -2,6 +2,8 @@
 
 ## SHOW ME THE HUMAN SIDE OF MUSICTECH
 
+![](https://res.cloudinary.com/tamas-demo/image/upload/w_600/v1530025915/P1040796.jpg)
+
 ### 24 Hours Hackathon: July 4-5
 
 Wallifornia MusicTech delivers the ultimate music tech experience by bringing together artists, labels, agents, musictech start-up, researchers, key players of the music industry and investors.
