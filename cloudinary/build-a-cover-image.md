@@ -56,70 +56,28 @@ e_art:zorro
 
 Nice vibe! You can almost hear Wiz's heavy rapping beats. We have dozens of artistic filters, text and image overlays to experiment with and make that cover image pop.
 
-This looks great so far but ...
+This looks great so far however the background colour that we have generated stands out a little bit as there’s a cut for the transition. We can very easily fix this visual defect by adding a gradient fade to ease the background colour to the main image.
+
+We can achieve that by adding these parameters to the image:
+
+`e_gradient_fade:symmetric_pad,x_50`
 
 ![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,c_lpad,g_west,b_auto,dpr_auto,f_auto,q_auto:best,e_gradient_fade:symmetric_pad,x_50/e_art:zorro/v1530016018/wallifornia/wiz-khalifa.jpg)
 
-![](http://res.cloudinary.com/capitol-music-group/image/upload/ar_16:9,b_auto,c_lpad,dpr_1.0,e_art:red_rock,g_east,q_auto:best/c_scale,fl_relative,w_0.3,g_west,l_overlays:4194-wayne-shorter-speak-no-evil-mm-cover-1900-ljc,x_0.05,a_-20/c_scale,w_600/wayne-shorter/speak-no-evil/WSHORW12.jpg)
+Notice how the previously added artistic filter is added as a different layer. We are required to specify it this way since the gradient fade will now occupy a layer and we need the artistic filter to be on a different layer in order for it to be visible.
 
-Add some text:
+Finally, we are also going to place the logo of the festival in the middle of our newly generated image - this would make a great addition to the image itself.
 
-![](http://res.cloudinary.com/capitol-music-group/image/upload/ar_16:9,b_auto,c_lpad,dpr_1.0,e_art:red_rock,g_east,q_auto:best/c_scale,fl_relative,w_0.3,g_west,l_overlays:4194-wayne-shorter-speak-no-evil-mm-cover-1900-ljc,x_0.05,a_-20/l_text:roboto_155_stroke_center_line_spacing_-10:Speak%20No%20Evil,co_white,bo_5px_solid_black,g_north_west,x_400,y_80,w_580,c_fit/l_text:impact_55_stroke_center_line_spacing_-10:Wayne%20Shorter,co_white,bo_5px_solid_red/c_scale,w_600/wayne-shorter/speak-no-evil/WSHORW12.jpg)
+This is the logo that we’ll be using - it is also loaded as an asset to Cloudinary:  
 
-```text
-http://res.cloudinary.com/capitol-music-group/image/upload/
-ar_16:9,b_auto,c_lpad,dpr_1.0,e_art:red_rock,g_east,q_auto:best/
-c_scale,fl_relative,w_0.3,g_west,
-l_overlays:4194-wayne-shorter-speak-no-evil-mm-cover-1900-ljc,x_0.05,a_-20/
-l_text:roboto_155_stroke_center_line_spacing_-10:Speak%20No%20Evil,
-co_white,bo_5px_solid_black,g_north_west,x_400,y_80,w_580,c_fit/
-l_text:impact_55_stroke_center_line_spacing_-10:Wayne%20Shorter,co_white,bo_
-5px_solid_white/c_scale,w_600/wayne-shorter/speak-no-evil/WSHORW12.jpg
-```
 
-## Variations
+![](https://res.cloudinary.com/tamas-demo/image/upload/v1530018414/wallifornia/logo20182x.jpg)
 
-![](http://res.cloudinary.com/capitol-music-group/image/upload/w_600/ar_16:9,b_auto,e_gradient_fade:symmetric_pad,x_0.2,c_pad,f_auto,g_east,q_auto/v1526782137/blue-note/wayne-shorter/MI0001444348.jpg.jpg)
+Notice that this logo has a white background and a certain size as well, which is a tad too big for our scenario. So it’s not only enough to place the image as an overlay but we need to apply some transformation to this image before we add it as a new layer. We can achieve this by adding the following options:
 
-```text
-http://res.cloudinary.com/capitol-music-group/image/upload/
-ar_16:9,
-b_auto,e_gradient_fade:symmetric_pad,x_0.2,
-c_pad,f_auto,g_east,q_auto/v1526782137/
-blue-note/wayne-shorter/MI0001444348.jpg.jpg
-```
+`/e_make_transparent:10,l_wallifornia:logo20182x.jpg,w_140/`
 
-This variation pulls in the background color and eases in the transition with gradient fade:
+And here is the final result:
 
-```text
-b_auto,e_gradient_fade:symmetric_pad,x_0.2
-```
-
-![](http://res.cloudinary.com/capitol-music-group/image/upload/w_600/ar_16:9,b_white,e_gradient_fade:symmetric_pad,x_0.2,c_pad,f_auto,g_east,q_auto/v1526782137/blue-note/wayne-shorter/MI0001444348.jpg.jpg)
-
-Here we use the gradient fade to transition the background to white:
-
-```text
-http://res.cloudinary.com/capitol-music-group/image/upload
-ar_16:9,
-b_white,
-e_gradient_fade:symmetric_pad,x_0.2,c_pad,f_auto,g_east,q_auto/
-v1526782137/blue-note/wayne-shorter/MI0001444348.jpg.jpg
-```
-
-You can also have the that gradient fade into transparency to reveal the background; remember to change the format extension to png.
-
-![](http://res.cloudinary.com/capitol-music-group/image/upload/w_600/ar_16:9,b_transparent,e_gradient_fade:symmetric_pad,x_0.2,c_pad,f_auto,g_east,q_auto/v1526782137/blue-note/wayne-shorter/MI0001444348.jpg.png)
-
-```text
-http://res.cloudinary.com/capitol-music-group/image/upload/
-ar_16:9,b_transparent,e_gradient_fade:symmetric_pad,x_0.2,
-c_pad,f_auto,g_east,q_auto
-/v1526782137/blue-note/wayne-shorter/MI0001444348.jpg
-.png
-```
-
-Now see how this technique might look on a web page with an interesting background:
-
-![](https://github.com/cloudinary-developers/wallifornia-musictech-hackathon/tree/26f589b23176cf643715a9c0b40599925f4b7c01/.gitbook/assets/assets-lalyutnvnjys_90po7d-ld21yyxlknzpuzstv_y-ld2720vkeppdm9jyaij-transparent-background.png)
+![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,c_lpad,g_west,b_auto,dpr_auto,f_auto,q_auto:best,e_gradient_fade:symmetric_pad,x_50/e_make_transparent:10,l_wallifornia:logo20182x.jpg,w_140/e_art:zorro/v1530016018/wallifornia/wiz-khalifa.jpg)
 

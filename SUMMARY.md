@@ -4,7 +4,7 @@
 
 ## Wallifornia Musictech Hackathon
 
-* [Challenge and Prizes](capitol360-innovation-center-hackathon-guide/challenge-and-prizes.md)
+* [Challenge and Prizes](wallifornia-musictech-hackathon/challenge-and-prizes.md)
 
 ## Thought Starters
 
