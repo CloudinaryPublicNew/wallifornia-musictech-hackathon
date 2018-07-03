@@ -6,7 +6,7 @@ Create a virtual _American Idol_ face-off singing competition. Challenge your us
 
 _**Here's a video for some inspiration!**_
 
-##        Choose a Serverless Stack
+## Choose a Serverless Stack
 
 Resist the urge to create an Express app from scratch and deploy a server for this one! Instead, focus on building on Auth0 extend's FaaS serverless stack. You'll be able to quickly create use and deploy Cloudinary's API's and extend it further with other APIs. Then call each API directly within a Single Page App \(SPA\) to take advantage of the responsive design possibilities.
 
