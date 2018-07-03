@@ -2,7 +2,7 @@
 
 ![Can you hear the sound of the music?](../.gitbook/assets/lee-pigott-629658-unsplash%20%281%29.jpg)
 
-Imagine having a photo in front of you come to life with sounds. Every photo has a scene, a potential emotion attached to it. You can very easily  discover objects and interesting items within a scene using [Cloudinary's Auto Tagging](../cloudinary/categorizing-images.md) capability and then use that information to trigger aural cues.
+Imagine having a photo in front of you come to life with sounds. Every photo has a scene, a potential emotion attached to it. You can very easily  discover objects and interesting items within a scene using [Cloudinary's Auto Tagging](../cloudinary/categorizing-images.md) capability and then use that information to trigger aural cues for example have the [sound of a drum](https://developers.google.com/actions/tools/sound-library/) play when recognised in the scene.
 
 ## Choose a Serverless Stack
 
