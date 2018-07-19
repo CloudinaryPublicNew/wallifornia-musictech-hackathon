@@ -6,11 +6,11 @@ description: By Dan Zeitman and Miki Shiran
 
 In this example we'll take a performance image and create a cover image. Here we have the amazing  artist, Wiz Khalifa - image copyright and courtesy of Ardentes Music Festival.
 
-![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_300/v1530016018/wallifornia/wiz-khalifa.png)
+![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_300/wallifornia/wiz-khalifa.jpg.png)
 
 Beautifully cropped square image, but to make it a cover image we need the image to fit into a 16:9 aspect ratio. We will need to pad the image to make up the image fit into the new aspect ratio. First step is to example the direction the performer's eyes are gazing. Wayne is looking to the left so let's add lead space and pad the image to the left.
 
-![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,c_lpad,g_west/v1530016018/wallifornia/wiz-khalifa.jpg)
+![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,c_lpad,g_west/wallifornia/wiz-khalifa.jpg.png)
 
 `http://res.cloudinary.com/tamas-demo/image/upload/ar_16:9,c_lpad,g_west/v1530016018/wallifornia/wiz-khalifa.jpg`
 
@@ -26,7 +26,7 @@ Nice but would it be better if the background color matched the exact same color
 b_auto
 ```
 
-![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,c_lpad,g_west,b_auto/v1530016018/wallifornia/wiz-khalifa.jpg)
+![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,c_lpad,g_west,b_auto/wallifornia/wiz-khalifa.jpg.png)
 
 `http://res.cloudinary.com/tamas-demo/image/upload/ar_16:9,c_lpad,g_west,b_auto/v1530016018/wallifornia/wiz-khalifa.jpg`
 
