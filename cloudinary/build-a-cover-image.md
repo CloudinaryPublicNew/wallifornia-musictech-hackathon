@@ -32,7 +32,7 @@ b_auto
 
 Looking good! Now let's optimize this for performance and quality.
 
-[http://res.cloudinary.com/tamas-demo/image/upload/ar\_16:9,c\_lpad,g\_west,b\_auto/v1530016018/wallifornia/wiz-khalifa.jpg.png](http://res.cloudinary.com/tamas-demo/image/upload/ar_16:9,c_lpad,g_west,b_auto/v1530016018/wallifornia/wiz-khalifa.jpg.png)
+![](http://res.cloudinary.com/tamas-demo/image/upload/ar\_16:9,c\_lpad,g\_west,b\_auto/v1530016018/wallifornia/wiz-khalifa.jpg.png)
 
 We can optimize the dpi, format, and quality with a few additional params in our url:
 
@@ -87,5 +87,5 @@ Let's also add some text to this image to display the name of the artist. We can
 
 This is how the final result looks like:
 
-[http://res.cloudinary.com/tamas-demo/image/upload/ar\_16:9,c\_lpad,g\_west,b\_auto/e\_make\_transparent:10,l\_wallifornia:logo20182x.jpg,w\_140/l\_text:roboto\_45:Wiz%20Khalifa,co\_black,g\_south\_east,x\_30,y\_10,w\_600,c\_fit/v1530016018/wallifornia/wiz-khalifa.jpg.png](http://res.cloudinary.com/tamas-demo/image/upload/ar_16:9,c_lpad,g_west,b_auto/e_make_transparent:10,l_wallifornia:logo20182x.jpg,w_140/l_text:roboto_45:Wiz%20Khalifa,co_black,g_south_east,x_30,y_10,w_600,c_fit/v1530016018/wallifornia/wiz-khalifa.jpg.png)
+![](http://res.cloudinary.com/tamas-demo/image/upload/ar\_16:9,c\_lpad,g\_west,b\_auto/e\_make\_transparent:10,l\_wallifornia:logo20182x.jpg,w\_140/l\_text:roboto\_45:Wiz%20Khalifa,co\_black,g\_south\_east,x\_30,y\_10,w\_600,c\_fit/v1530016018/wallifornia/wiz-khalifa.jpg.png)
 
