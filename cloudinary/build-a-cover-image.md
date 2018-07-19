@@ -52,7 +52,7 @@ Our cover image allready looks awesome, but let add a artistic filter to enhance
 e_art:zorro
 ```
 
-![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,,dpr_2.0,c_lpad,g_west,b_auto,dpr_auto,f_auto,q_auto:best,e_art:zorro/wallifornia/wiz-khalifa.jpg.png)
+![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,dpr_2.0,c_lpad,g_west,b_auto,dpr_auto,f_auto,q_auto:best,e_art:zorro/wallifornia/wiz-khalifa.jpg.png)
 
 Nice vibe! You can almost hear Wiz's heavy rapping beats. We have dozens of artistic filters, text and image overlays to experiment with and make that cover image pop.
 
@@ -62,7 +62,7 @@ We can achieve that by adding these parameters to the image:
 
 `e_gradient_fade:symmetric_pad,x_50/e_art:zorro/`
 
-![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,,dpr_2.0,c_lpad,g_west,b_auto,dpr_auto,f_auto,q_auto:best,e_gradient_fade:symmetric_pad,x_50/e_art:zorro/wallifornia/wiz-khalifa.jpg.png)
+![](http://res.cloudinary.com/tamas-demo/image/upload/c_scale,w_600,ar_16:9,dpr_2.0,c_lpad,g_west,b_auto,dpr_auto,f_auto,q_auto:best,e_gradient_fade:symmetric_pad,x_50/e_art:zorro/wallifornia/wiz-khalifa.jpg.png)
 
 Notice how the previously added artistic filter is added as a different layer. We are required to specify it this way since the gradient fade will now occupy a layer and we need the artistic filter to be on a different layer in order for it to be visible.
 
